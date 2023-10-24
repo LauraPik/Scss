@@ -1,0 +1,69 @@
+
+header{
+    background-color: $backgroundHeader;
+}
+
+
+.navbar{
+    
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    &__logo{
+        margin-left: 119px;
+    }
+
+    &__bars{
+        opacity: 0;
+        @include tablet{
+            color: black;
+            opacity: 1;
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            font-size: 3rem;
+        }
+
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        margin-right: 24px;
+        
+        @include tablet{
+            display: none;
+        }
+        
+        &--links{
+         text-decoration: none;
+         color: $textColor;
+         width: 124px;
+         height: 38px; 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: normal;
+        }
+
+        #button{
+            padding: 12px 24px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background: $buttonLight;
+            margin-left: 16px;
+            width: 150px;
+            color: #FFF;
+
+        }
+    }
+    
+    
+}

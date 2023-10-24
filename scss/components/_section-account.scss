@@ -1,0 +1,28 @@
+.account{
+    margin-top: 12rem;
+    gap:7rem;
+
+    &__content--left{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__title{
+        color: $textColor;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        width: 20,43;
+        
+        
+    }
+
+@include tablet{
+    display: flex;
+    flex-direction: column;   
+}
+
+
+}

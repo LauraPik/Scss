@@ -1,0 +1,50 @@
+
+.learning{
+.learning__content--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+&__title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 428px; 
+}
+&__parahrap{
+    color: $parahrap;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 550px;
+
+}
+
+&__button:hover {
+    color: inherit;
+    background-color: inherit;
+    border: inherit;
+
+  }
+  &__button{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 220px;
+    height: 44px;
+    background-color: #682C0E;
+    border-radius: 10px; 
+
+  }
+}
+
