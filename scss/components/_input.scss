@@ -1,0 +1,38 @@
+.input{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: $backgroundLight;
+    &__name{
+        width: 300px;
+        height: 63px;
+        
+    }
+    &__email{
+        width: 300px;
+        height: 63px;
+    }
+    &__button{
+        width: 300px;
+        height: 63px;
+        background-color: $buttonLight;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__button:hover {
+        color: inherit;
+        background-color: inherit;
+        border: inherit;
+    }
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        gap: 0;   
+    }
+
+}

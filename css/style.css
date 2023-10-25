@@ -10438,4 +10438,36 @@ header {
       display: flex;
       flex-direction: column; } }
 
+.input {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #F9E0AE; }
+  .input__name {
+    width: 300px;
+    height: 63px; }
+  .input__email {
+    width: 300px;
+    height: 63px; }
+  .input__button {
+    width: 300px;
+    height: 63px;
+    background-color: #C24914;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  .input__button:hover {
+    color: inherit;
+    background-color: inherit;
+    border: inherit; }
+  @media screen and (max-width: 768px) {
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 0; } }
+
 /*# sourceMappingURL=style.css.map */
